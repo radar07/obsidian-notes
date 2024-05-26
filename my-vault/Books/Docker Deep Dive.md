@@ -145,7 +145,18 @@ docker node ls # lists all the managers and workers in the swarm
 
 * Single network can span every node in a swarm, allowing containers on different hosts to communicate (container-to-container communication)
 
+```bash
+docker network create -d macvlan \
+--subnet=10.0.0.0/24 \
+--ip-range=10.0.0.0/25 \
+--gateway=10.0.0.1 \
+-o parent=eth0.100 \
+macvlan100
+```
+
 ## Overlay networking
+
+* Built on top of `libnetwork` and the native `overlay` driver.
 
 ## Volumes
 
