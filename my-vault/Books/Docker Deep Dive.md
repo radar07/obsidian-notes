@@ -134,6 +134,12 @@ docker node ls # lists all the managers and workers in the swarm
 1. The Container Network Model (CNM) - design specification
 2. Libnetwork - real-world implementation of CNM.
 3. Drivers - extends the model by implementing the specific network topologies
+![[Pasted image 20240526185418.png]]
+
+#### Single-host bridge networks
+
+* Only spans a single Docker host and can only connect containers that are on the same host
+* Every docker host gets a default single-host bridge network. Linux(bridge) and Window(nat)
 
 ## Overlay networking
 
