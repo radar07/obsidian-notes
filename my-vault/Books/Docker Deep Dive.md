@@ -166,7 +166,21 @@ macvlan100
 		every docker container gets its own non-persistent storage and coupled with the lifecycle of a container. Deleting the container will delete the storage and data.
 
 Containers are designed to be read-only but many applications require a read-write filesystem in order to run. So, containers have thin read-write layers on top of read-only images they're based on.
+
+* Volumes are independent objects that are not tied to the lifecycle of the containers.
+* Volumes can be mapped to specialized external storage systems.
+* Volumes enable multiple containers on different Docker hosts to access and share the same data.
+
+#### Creating and managing Docker volumes
+
+```bash
+# creates volume with buitin `local` driver
+docker volume create myvol
+
+docker volume prune # deletes all volumes not mounted containers
+docker volume rm # specify which volume to delete
+```
 ## Docker stacks
 
 ## Security in Docker
-
+	
