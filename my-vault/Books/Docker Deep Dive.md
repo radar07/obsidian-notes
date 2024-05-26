@@ -182,9 +182,13 @@ docker volume rm # specify which volume to delete
 ```
 ### Volumes with containers and services
 ```bash
+docker run -it --name volcontain \
+--mount source=bizvol,target=/vol \
+alpine
 ```
-
+* If you specify an existing volume, Docker will use it.
+* If you specify a non-existing volume, Docker will create it.
 ## Docker stacks
 
-## Security in Docker
-	
+
+## Security in Docker	
