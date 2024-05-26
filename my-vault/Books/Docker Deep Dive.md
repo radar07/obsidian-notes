@@ -135,5 +135,16 @@ docker node ls # lists all the managers and workers in the swarm
 2. Libnetwork - real-world implementation of CNM.
 3. Drivers - extends the model by implementing the specific network topologies
 
-##
+## Overlay networking
+
+## Volumes
+
+1. Persistent data
+		containers need to store data in volumes.z
+2. Non-persistent data
+		every docker container gets its own non-persistent storage and coupled with the lifecycle of a container. Deleting the container will delete the storage and data.
+
+## Docker stacks
+
+## Security in Docker
 
