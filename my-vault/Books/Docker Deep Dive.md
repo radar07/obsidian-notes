@@ -165,6 +165,7 @@ macvlan100
 2. Non-persistent data
 		every docker container gets its own non-persistent storage and coupled with the lifecycle of a container. Deleting the container will delete the storage and data.
 
+Containers are designed to be read-only but many applications require a read-write filesystem in order to run. So, containers have thin read-write layers on top of read-only images they're based on.
 ## Docker stacks
 
 ## Security in Docker
