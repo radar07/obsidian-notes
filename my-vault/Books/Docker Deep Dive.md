@@ -1,5 +1,11 @@
 #books
 
+## Docker technology
+ * runtime
+ * daemon (aka engine)
+ * orchestrator
+ ![[Pasted image 20240526170401.png]]
+
 ## Docker Engine
 
 ![[Pasted image 20240512195625.png]]
@@ -129,4 +135,5 @@ docker node ls # lists all the managers and workers in the swarm
 2. Libnetwork - real-world implementation of CNM.
 3. Drivers - extends the model by implementing the specific network topologies
 
+##
 
