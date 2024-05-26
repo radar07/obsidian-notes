@@ -141,6 +141,10 @@ docker node ls # lists all the managers and workers in the swarm
 * Only spans a single Docker host and can only connect containers that are on the same host
 * Every docker host gets a default single-host bridge network. Linux(bridge) and Window(nat)
 
+#### Multi-layer overlay networks
+
+* Single network can span every node in a swarm, allowing containers on different hosts to communicate (container-to-container communication)
+
 ## Overlay networking
 
 ## Volumes
