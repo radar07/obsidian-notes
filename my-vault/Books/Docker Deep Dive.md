@@ -180,6 +180,10 @@ docker volume create myvol
 docker volume prune # deletes all volumes not mounted containers
 docker volume rm # specify which volume to delete
 ```
+### Volumes with containers and services
+```bash
+```
+
 ## Docker stacks
 
 ## Security in Docker
