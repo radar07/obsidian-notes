@@ -188,6 +188,11 @@ alpine
 ```
 * If you specify an existing volume, Docker will use it.
 * If you specify a non-existing volume, Docker will create it.
+### Sharing storage across cluster nodes
+![[Pasted image 20240526223138.png]]
+
+Use *netapp/trident-plugin* (`docker plugin install netapp/trident-plugin`) on Docker Hub to work with external storage systems.
+
 ## Docker stacks
 
 
