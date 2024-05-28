@@ -257,3 +257,15 @@ docker stack rm
 ```
 
 ## Security in Docker	
+
+1. Linux security technologies
+	* namespaces
+	* control groups
+	* capabilities
+	* mandatory access control
+	* seccomp
+1. Docker platform security technologies
+	* swarm mode
+	* vulnerability scanning
+	* Docker Content Trust
+	* Docker secrets
