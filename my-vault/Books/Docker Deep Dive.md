@@ -195,5 +195,65 @@ Use *netapp/trident-plugin* (`docker plugin install netapp/trident-plugin`) on D
 
 ## Docker stacks
 
+![[Pasted image 20240528134222.png]]
+* Stack files are similar to Compose files
+* Swarm and Stacks support different features than Compose (Stacks don't support building images from Dockerfil)
+```yaml
+# Un-comment the version field if you get an 'unsupported Compose file version: 1.0' ERROR
+
+#version: '3.8'
+networks:
+  counter-net:
+    driver: overlay
+    driver_opts:
+      encrypted: 'yes'
+volumes:
+  counter-vol:
+
+services:
+  web-fe:
+    image: nigelpoulton/ddd-book:swarm-app
+    command: python app.py
+    deploy:
+      replicas: 4
+      update_config:
+        parallelism: 2
+        delay: 10s
+        failure_action: rollback
+      placement:
+        constraints:
+          - 'node.role == worker'
+      restart_policy:
+        condition: on-failure
+        delay: 5s
+        max_attempts: 3
+        window: 120s
+    networks:
+      - counter-net
+    ports:
+      - published: 5001
+        target: 8080
+    volumes:
+      - type: volume
+        source: counter-vol
+        target: /app
+  redis:
+    image: "redis:alpine"
+    networks:
+      counter-net:
+
+```
+
+```bash
+
+# deploying and updating the stacks of services in stack file
+docker stack deploy -c compose.yaml ddd
+
+docker stack ls
+
+docker stack ps ddd
+
+docker stack rm
+```
 
 ## Security in Docker	
