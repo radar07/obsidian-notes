@@ -24,5 +24,18 @@
 	* less community support
 
 #### Let's talk about numbers
+
 * 3-10x smaller, 20-100x times faster than XML
 * 34% smaller, 21% less times available in JS code(JSON)
+* Google have 48,000 messages defined in 12000 proto files
+#### How it is being used (share data between diff programming languages)
+
+```proto
+syntax = "proto3"
+
+message MyMessage {
+  uint32 id = 1;
+}
+```
+Above proto definition can be translated to different programming languages (Go, Ruby, Java etc,.) and then converts to binary.
+![[Pasted image 20240529222936.png]]
