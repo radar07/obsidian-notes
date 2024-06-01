@@ -96,3 +96,22 @@ enum Color {
   BLUE = 2;
 }
 ```
+
+### Packages and imports
+
+```
+// first.proto
+
+package "mypackage";
+
+message One {
+}
+
+// second.proto
+
+import "first.proto";
+
+message Two {
+  mypackage.One id = 1;
+}
+```
