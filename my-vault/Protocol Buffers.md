@@ -61,3 +61,15 @@ Above proto definition can be translated to different programming languages (Go,
 
 #### Bytes (default empty byte array)
 * bytes
+
+```proto
+syntax = "proto3"
+
+message MyMessage {
+  uint32 id = 1;
+  string name = 2;
+  bytes thumbnail = 3;
+  bool is_verified = 4
+  float height = 5;
+}
+```
