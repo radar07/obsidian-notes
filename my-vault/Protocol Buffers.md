@@ -43,3 +43,21 @@ Above proto definition can be translated to different programming languages (Go,
 ### Defaults
 * A field will now be serialized
 * Populated with default value
+
+### Scalar types
+
+#### Number (default 0)
+* int32, int64, sint32, sint64
+* uint32, uint64
+* fixed32, fixed64, sfixed32, sfixed64
+* float, double
+
+#### Boolean (default false)
+* bool
+
+#### Strings (default empty string)
+* string
+* UTF-8 or 7 bit ASCII
+
+#### Bytes (default empty byte array)
+* bytes
