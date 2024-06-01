@@ -71,7 +71,7 @@ message MyMessage {
   bytes thumbnail = 3;
   bool is_verified = 4
   float height = 5;
-  repeated strin
+  repeated string phones = 6;
 }
 ```
 
@@ -84,3 +84,15 @@ message MyMessage {
 * Reserved tags(by Google) -  19000 to 19999
 * 1 - 15  -> 1 byte
 * 16 - 2047 - 2 bytes
+
+
+### Enums (default first value)
+ * first tag should be 0
+
+```proto
+enum Color {
+  UNSPECIFIED = 0;
+  RED = 1;
+  BLUE = 2;
+}
+```
