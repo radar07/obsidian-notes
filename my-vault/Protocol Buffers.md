@@ -42,3 +42,4 @@ Above proto definition can be translated to different programming languages (Go,
 
 ### Defaults
 * A field will now be serialized
+* Populated with default value
