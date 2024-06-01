@@ -39,3 +39,6 @@ message MyMessage {
 ```
 Above proto definition can be translated to different programming languages (Go, Ruby, Java etc,.) and then converts to binary.
 ![[Pasted image 20240529222936.png]]
+
+### Defaults
+* A field will now be serialized
