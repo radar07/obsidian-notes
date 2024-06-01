@@ -7,7 +7,8 @@
 3. Svelte and SvelteKit
 	1. Spotify clone
 4. AWS
-5. Rust
+5. GraphQL
+6. Rust
 
 
 ### Weekend projects
