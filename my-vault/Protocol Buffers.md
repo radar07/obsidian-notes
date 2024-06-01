@@ -73,3 +73,13 @@ message MyMessage {
   float height = 5;
 }
 ```
+
+
+### Tags
+
+* Fields are not important for serialization but tags are.
+* Smallest tag -1  Largest tag - 536,870,911
+* smallest tags are for the most populated fields on the schema
+* Reserved tags(by Google) -  19000 to 19999
+* 1 - 15  -> 1 byte
+* 16 - 2047 - 2 bytes
