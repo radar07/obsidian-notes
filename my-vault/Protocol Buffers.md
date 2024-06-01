@@ -71,6 +71,7 @@ message MyMessage {
   bytes thumbnail = 3;
   bool is_verified = 4
   float height = 5;
+  repeated strin
 }
 ```
 
