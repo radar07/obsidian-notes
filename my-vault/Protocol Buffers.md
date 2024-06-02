@@ -101,14 +101,14 @@ enum Color {
 
 ```
 // first.proto
-
+syntax = "proto3";
 package "mypackage";
 
 message One {
 }
 
 // second.proto
-
+syntax = "proto3";
 import "first.proto";
 
 message Two {
