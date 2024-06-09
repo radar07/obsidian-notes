@@ -8,7 +8,8 @@
 4. AWS
 5. GraphQL
 6. System Design and scalability
-7. Rust
+7. Terraform
+8. Rust
 
 ### Weekend projects
 
