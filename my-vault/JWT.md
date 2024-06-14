@@ -19,3 +19,10 @@
 * helps to customer-oriented experiences
 Single Sign-On
 * sign-in once and access all the application based on their session
+* reduces login-related help desk problems
+* faster and easy to use different apps for new users.
+Multi-factor authentication
+* different ways to implement various factors of authentication
+* knowledge - users know (security question, password)
+* possession - something users have (sms, email, otp)
+* biometric - something which the user is (fingerprints)
