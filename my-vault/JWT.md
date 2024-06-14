@@ -28,3 +28,8 @@ Multi-factor authentication
 * biometric - something which the user is (fingerprints)
 
 Okta Universal Directory - centralized place for managing all users, groups, and devices from any source since Okta can be integrated to multiple applications (salesforce, active admin). It provides group based password.
+
+SAML - Security Assertion Markup Language - an open standard for issuing authorization and authentication between different providers.
+* Different single sign-on protocols - SAML, OAuth, OIDC
+* Used in organization to log in Salesforce, Workday
+* XML based standard for exchanging authentication and authorization data to verify the user's identity and permissions then grant and deny their access to services.
