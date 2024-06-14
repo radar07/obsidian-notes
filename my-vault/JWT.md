@@ -26,3 +26,5 @@ Multi-factor authentication
 * knowledge - users know (security question, password)
 * possession - something users have (sms, email, otp)
 * biometric - something which the user is (fingerprints)
+
+Okta Universal Directory - centralized place for managing all users, groups, and devices from any source since Okta can be integrated to multiple applications (salesforce, active admin). It provides group based password.
