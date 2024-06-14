@@ -10,3 +10,12 @@
 
 #### Token
 ![[Pasted image 20240614144551.png]]
+
+
+### OKTA
+* Identity management
+* Uses cloud software which helps organizations in managing and securing user authentication
+* smooth integration process
+* helps to customer-oriented experiences
+Single Sign-On
+* sign-in once and access all the application based on their session
