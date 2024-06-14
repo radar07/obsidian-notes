@@ -5,4 +5,8 @@
 ### Authorization
 * The user that sends the request to the server is the same user that logged in. (This user has access to this particular system)
 
-Session  vs Token
+#### Session
+![[Pasted image 20240614144534.png]]
+
+#### Token
+![[Pasted image 20240614144551.png]]
