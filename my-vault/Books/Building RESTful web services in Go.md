@@ -18,4 +18,4 @@
 
 #### REST verbs and status codes
 ![[Pasted image 20240615124409.png]]
-Use PATH parameters for a single resource and QUERY parameters for multiple resources in GET request.
+Use PATH parameters for a single resource and QUERY parameters for multiple resources in GET request. 
