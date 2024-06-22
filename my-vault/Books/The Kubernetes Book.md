@@ -27,4 +27,7 @@ Kubernetes is like a courier service. You package the app as a container, give i
 - Orchestrator -> a system that takes care of deploying and managing applications
 * Just like a football coach
 ##### how it works?
-* 
+1. Design and write applications as small independent microservices
+2. Package each microservice as its own container
+3. Wrap container in Kubernetes Pod
+4. Deploy pods to the cluster
