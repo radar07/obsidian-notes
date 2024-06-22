@@ -25,3 +25,6 @@ Kubernetes is like a courier service. You package the app as a container, give i
 #### Kubernetes as an orchestrator
 
 - Orchestrator -> a system that takes care of deploying and managing applications
+* Just like a football coach
+##### how it works?
+* 
