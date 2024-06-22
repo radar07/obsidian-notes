@@ -12,3 +12,16 @@ Docker Swarm is still under active development and is popular with small compani
 Kubernetes (k8s) -> Helmsman (Greek) - person steers the ship
 
 Kubernetes is like a courier service. You package the app as a container, give it a Kubernetes manifest, and let Kubernetes take care of deploying it and keeping it running.
+
+
+#### Kubernetes as a cluster
+
+* Cluster -a bunch of machines(nodes) to host applications.
+* A cluster consists of a control plane and worker node.
+* Control plane -> Intelligence, exposes the API, has a scheduler for assigning work, and responsible for keeping apps healthy (self-healing, auto-scaling, rollouts).
+* Workers -> hard work of executing user applications
+
+
+#### Kubernetes as an orchestrator
+
+- Orchestrator -> a system that takes care of deploying and managing applications
