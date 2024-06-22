@@ -35,4 +35,15 @@ Kubernetes is like a courier service. You package the app as a container, give i
 
 ### Control Plane
 
-1. Control Plane runs a collection of s
+1. Control Plane runs a collection of system services (masters, heads, head nodes) that make up the control plane of the cluster.
+2. Multiple control plane nodes can configured for high availability
+#### API server
+
+* Internal and external user components communicate through API server - all roads lead to the API server
+
+#### Controller manager and Controllers
+
+#### Scheduler
+
+
+#### Cloud control manager
