@@ -31,3 +31,8 @@ Kubernetes is like a courier service. You package the app as a container, give i
 2. Package each microservice as its own container
 3. Wrap container in Kubernetes Pod
 4. Deploy pods to the cluster
+
+
+### Control Plane
+
+1. Control Plane runs a collection of s
