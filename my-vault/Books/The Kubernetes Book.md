@@ -91,3 +91,6 @@ Kubernetes is like a courier service. You package the app as a container, give i
 * A kubelet needs container runtime to perform container-related tasks (pulling images, and starting and stopping containers)
 
 #### Network proxy (kube-proxy)
+
+* This runs on every node and is responsible for local cluster networking.
+* Each node gets its own unique IP address, and it implements local iptables or IPVS rules to handle routing and load-balancing of traffic.
