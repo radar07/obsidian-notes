@@ -40,12 +40,20 @@ Kubernetes is like a courier service. You package the app as a container, give i
 #### API server
 
 * Internal and external user components communicate through API server - all roads lead to the API server
-* Exposes RESTful API that you POST YAML configuration files (manifests) over HTTPS
+* Exposes RESTful API that you **POST** YAML configuration files (*manifests*) over HTTPS
 
 #### The Cluster store
 
 * 
 #### Controller manager and Controllers
+
+* The controller manager (*controller of controllers*) implements all background controllers that monitor cluster components and respond to events
+* The goal is to ensure the *observed* state of the cluster matches the *desired* state.
+	* Obtain desired state
+	* Observe current state
+	* Determine differences
+	* Reconcile differences
+
 
 #### Scheduler
 
