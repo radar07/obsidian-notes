@@ -101,3 +101,9 @@ Kubernetes is like a courier service. You package the app as a container, give i
 * Simplest model is run a single container in every Pod. But we can run multiple containers in a single Pod.
 * Pods themselves don't actually run applications - applications always run in containers.
 * Pod is just an execution environment to run one or more containers.
+* If there are multiple containers running in a Pod, they all share the same Pod environment including the network stack, volumes, IPC namespace, shared memory, and more. Ex: all containers in the same Pod will share the same IP address.
+
+### Pod as the unit of scaling
+
+* Pod - minimum unit of scheduling in Kubernetes.
+* If you need to scale an app, you add or remove Pods. You *do not* scale by ad
