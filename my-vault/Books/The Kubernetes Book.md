@@ -42,6 +42,9 @@ Kubernetes is like a courier service. You package the app as a container, give i
 * Internal and external user components communicate through API server - all roads lead to the API server
 * Exposes RESTful API that you POST YAML configuration files (manifests) over HTTPS
 
+#### The Cluster store
+
+* 
 #### Controller manager and Controllers
 
 #### Scheduler
