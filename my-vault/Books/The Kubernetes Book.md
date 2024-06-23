@@ -67,3 +67,23 @@ Kubernetes is like a courier service. You package the app as a container, give i
 * A *task* is normally a Pod/container
 
 #### Cloud control manager
+
+* If you're running your cluster on a supported public cloud platform, such as AWS, Azure, GCP, or Linode, your control plane will be running a *cloud controller manager*.
+* Facilitates integrations with cloud services, such as instances, load-balancers, and storage.
+![[Pasted image 20240623104213.png]]
+
+### Worker nodes
+
+1. Watch the API server for new work assignments
+2. Execute work assignments
+3. Report back to the control plane (via API server)
+![[Pasted image 20240623104501.png]]
+
+
+#### Kubelet
+
+
+#### Container runtime
+
+
+#### Network proxy (kube-proxy)
