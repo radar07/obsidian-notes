@@ -134,4 +134,5 @@ Kubernetes is like a courier service. You package the app as a container, give i
 * Pods are unreliable so Services come in to play.
 * They provide a reliable networking for a set of Pods.
 * Services provide stable IP addresses and DNS names to the unstable world of Pods.
-![[Pasted image 20240623134923.png]]`
+![[Pasted image 20240623134923.png]]
+
