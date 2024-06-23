@@ -57,5 +57,9 @@ Kubernetes is like a courier service. You package the app as a container, give i
 
 #### Scheduler
 
+* It watches the API server for new work tasks and assigns them to appropriate healthy worker nodes
+* It is responsible for picking the nodes to run tasks (by ranking), it isn't responsible for running them.
+* A *task* is normally a Pod/container.
+
 
 #### Cloud control manager
