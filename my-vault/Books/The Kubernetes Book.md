@@ -103,21 +103,35 @@ Kubernetes is like a courier service. You package the app as a container, give i
 * Pod is just an execution environment to run one or more containers.
 * If there are multiple containers running in a Pod, they all share the same Pod environment including the network stack, volumes, IPC namespace, shared memory, and more. Ex: all containers in the same Pod will share the same IP address.
 
-### Pod as the unit of scaling
+#### Pod as the unit of scaling
 
 * Pod - minimum unit of scheduling in Kubernetes.
 * If you need to scale an app, you add or remove Pods. You *do not* scale by adding more containers to existing Pods
 
-### Pod - atomic operations
+#### Pod - atomic operations
 
 * Deployment of a Pod is an atomic operation. This means a Pod is only ready for service when all its containers are up and running.
 
-### Pod lifecycle
+#### Pod lifecycle
 
-* Pods are mortal - they're created, they live and they die. When they die, Kuberentes starts a new one in its place with new ID and new IP address.
+* Pods are mortal - they're created, they live and they die. When they die, Kubernetes starts a new one in its place with new ID and new IP address.
 
-### Pod immutability
+#### Pod immutability
 
 * Pods are immutable. They don't change once they're running.
 * Once a Pod is running, you never log on to it and change or update its configuration.
 * If you need to change or update it, you replace it with a new one running with new configuration. Updating Pods -> delete the old one and replace it with a new one.
+
+
+### Deployments
+
+* Mostly you'll deploy Pods indirectly via higher-level controllers like *Deployments*, *DaemonSets*, and *StatefulSets*.
+* Deployment is higher-lever Kubernetes object that wraps around a Pod and adds features such as self-healing, scaling, zero-downtime rollouts, and versioned rollbacks.
+* Deployments, DaemonSets, and StatefulSets are implemented as controllers that run as watch loops constantly observing the cluster making sure observed state matches desired state.
+
+### Service objects and stable networking
+
+* Pods are unreliable so Services come in to play.
+* They provide a reliable networking for a set of Pods.
+* Services provide stable IP addresses and DNS names to the unstable world of Pods.
+![[Pasted image 20240623134923.png]]`
