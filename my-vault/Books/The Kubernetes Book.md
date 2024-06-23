@@ -59,7 +59,6 @@ Kubernetes is like a courier service. You package the app as a container, give i
 	* Determine differences
 	* Reconcile differences
 
-
 #### Scheduler
 
 * It watches the API server for new work tasks and assigns them to appropriate healthy worker nodes
