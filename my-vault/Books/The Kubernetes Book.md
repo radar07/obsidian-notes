@@ -106,4 +106,18 @@ Kubernetes is like a courier service. You package the app as a container, give i
 ### Pod as the unit of scaling
 
 * Pod - minimum unit of scheduling in Kubernetes.
-* If you need to scale an app, you add or remove Pods. You *do not* scale by ad
+* If you need to scale an app, you add or remove Pods. You *do not* scale by adding more containers to existing Pods
+
+### Pod - atomic operations
+
+* Deployment of a Pod is an atomic operation. This means a Pod is only ready for service when all its containers are up and running.
+
+### Pod lifecycle
+
+* Pods are mortal - they're created, they live and they die. When they die, Kuberentes starts a new one in its place with new ID and new IP address.
+
+### Pod immutability
+
+* Pods are immutable. They don't change once they're running.
+* Once a Pod is running, you never log on to it and change or update its configuration.
+* If you need to change or update it, you replace it with a new one running with new configuration. Updating Pods -> delete the old one and replace it with a new one.
