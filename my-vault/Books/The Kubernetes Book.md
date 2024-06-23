@@ -94,3 +94,10 @@ Kubernetes is like a courier service. You package the app as a container, give i
 
 * This runs on every node and is responsible for local cluster networking.
 * Each node gets its own unique IP address, and it implements local iptables or IPVS rules to handle routing and load-balancing of traffic.
+
+### Pods and Containers
+
+* Pod -> pod of whales -> group of whales -> Docker logo
+* Simplest model is run a single container in every Pod. But we can run multiple containers in a single Pod.
+* Pods themselves don't actually run applications - applications always run in containers.
+* Pod is just an execution environment to run one or more containers.
