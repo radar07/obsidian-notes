@@ -44,7 +44,12 @@ Kubernetes is like a courier service. You package the app as a container, give i
 
 #### The Cluster store
 
-* 
+* **No cluster store, no cluster**
+* Stores the entire configuration and state of the cluster
+* Based on *etcd*, a popular distributed database
+* As it is the single source of truth for a cluster, you should run between 3-5 etcd replics for high-availability
+* A default installation of Kubernetes installs a replica of the cluster store on every control plane node and automatically configures HA
+
 #### Controller manager and Controllers
 
 * The controller manager (*controller of controllers*) implements all background controllers that monitor cluster components and respond to events
@@ -59,7 +64,6 @@ Kubernetes is like a courier service. You package the app as a container, give i
 
 * It watches the API server for new work tasks and assigns them to appropriate healthy worker nodes
 * It is responsible for picking the nodes to run tasks (by ranking), it isn't responsible for running them.
-* A *task* is normally a Pod/container.
-
+* A *task* is normally a Pod/container
 
 #### Cloud control manager
