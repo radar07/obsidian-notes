@@ -23,12 +23,12 @@ Kubernetes is like a courier service. You package the app as a container, give i
 
 
 #### Kubernetes as an orchestrator
-
+[]()
 - Orchestrator -> a system that takes care of deploying and managing applications
 * Just like a football coach
 ##### how it works?
-1. Design and write applications as small independent microservices
-2. Package each microservice as its own container
+1. Design and write applications as small independent micro-services
+2. Package each micro-service as its own container
 3. Wrap container in Kubernetes Pod
 4. Deploy pods to the cluster
 
@@ -47,7 +47,7 @@ Kubernetes is like a courier service. You package the app as a container, give i
 * **No cluster store, no cluster**
 * Stores the entire configuration and state of the cluster
 * Based on *etcd*, a popular distributed database
-* As it is the single source of truth for a cluster, you should run between 3-5 etcd replics for high-availability
+* As it is the single source of truth for a cluster, you should run between 3-5 etcd replicas for high-availability
 * A default installation of Kubernetes installs a replica of the cluster store on every control plane node and automatically configures HA
 
 #### Controller manager and Controllers
@@ -82,8 +82,12 @@ Kubernetes is like a courier service. You package the app as a container, give i
 
 #### Kubelet
 
+* Main Kubernetes agent runs on every worker node
+* When you join a node to a cluster, the process installs the kubelet, which is responsible for registering it with the cluster.
+* Its main job is to watch the API server for new work tasks.
 
 #### Container runtime
 
+* A kubelet needs container runtime to perform container-related tasks (pulling images, and starting and stopping containers)
 
 #### Network proxy (kube-proxy)
