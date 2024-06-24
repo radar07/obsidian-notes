@@ -14,6 +14,7 @@
 ### Weekend projects
 
 - Portfolio and host it using [Hostinger](https://hostinger.com/forrestknight)
+	* 
 - Build your own HTTP server
 - compiler design in Golang
 - web sockets, gRPC
