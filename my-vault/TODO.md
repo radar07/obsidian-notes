@@ -31,6 +31,14 @@
 4. Employers in India Ratio of Engineers to QE. Seniors
 
 #### Hashicorp
+- 4+ years of software engineering experience, with a focus on cloud services and infrastructure.
+- Proficient in Go, with familiarity in other programming languages (Python, Ruby) considered beneficial.
+- Experience with cloud computing platforms (AWS, Azure, GCP) and infrastructure as code (Terraform).
+- Demonstrated ability to tackle technical challenges and deliver innovative solutions.
+- Strong problem-solving skills and the ability to work collaboratively across diverse teams.
+- Keen interest in operational process improvement and delivering customer-centric solutions.
+- Excellent communication and collaboration skills, with a focus on customer satisfaction and team success.
+
 1. Intro about the job description how I found this role and how I can be a good fit for the role
 2. Preparing for the certification by the end of this month so I can become the best fit for the role
 3. Terraform is the most popular and most used product by Hashicorp and companies are looking for people who are good at Terraform (from Linkedin JDs). What are the plans of Hashicorp to make other products to be as good as Terraform?
