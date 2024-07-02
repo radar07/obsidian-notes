@@ -25,7 +25,7 @@
 
 #### GoDaddy
 5+ years of experience in developing and deploying production software - Experience working with Amazon Web Services (AWS) or equivalent - Experience with building real-time and batch APIs and web Services, with a strong understanding of Microservices architecture
-1. Domain registry
+1. Domain registry 21 m entrepreneurs
 2. Future of GoDaddy
 3. Compete with other companies like Hostinger
 4. Employers in India Ratio of Engineers to QE. Seniors
