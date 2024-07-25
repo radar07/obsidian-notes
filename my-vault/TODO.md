@@ -40,6 +40,5 @@
 - Excellent communication and collaboration skills, with a focus on customer satisfaction and team success.
 
 Kindness, humility
-Consul
-Terraform
-Vault
+
+When I look at almost all the open roles at Bengaluru it requires Terraform and not Consul but the product involved is Consul. 
