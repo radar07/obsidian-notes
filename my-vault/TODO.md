@@ -40,7 +40,3 @@
 - Excellent communication and collaboration skills, with a focus on customer satisfaction and team success.
 
 Kindness, humility
-
-When I look at almost all the open roles it requires Terraform and not Consul but the product involved is Consul. If I were to apply for a TCE role, would I be required to learn Consul?
-
-Does Hashicorp certifications like Terraform Associate or Vault associate help you stand out from others in the hiring process?
