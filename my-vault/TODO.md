@@ -13,8 +13,7 @@
 
 ### Weekend projects
 
-- Portfolio and host it using [Hostinger](https://hostinger.com/forrestknight)
-	* posts and projects
+- Add posts to [pranavrk24.com](https://www.pranavrk24.com)
 - Build your own HTTP server
 - compiler design in Golang
 - web sockets, gRPC
@@ -23,3 +22,8 @@
 
 ### Interview
 
+- System design
+- Go, Web sockets, gRPC
+- Docker, Kubernetes, Jenkins
+- GraphQL
+- AWS
