@@ -48,3 +48,14 @@ Store data as-is, without having to structure the data, and run different types 
 - Geographically distributed network of proxy servers and data centers to provide HA (high-availability)
 - Mostly used for static content, such as images or static web pages.
 Ex: AWS Cloudfront, Google Cloud CDN, Microsoft Azure CDN, Akamai, Cloudfare.
+
+### Resiliency
+
+### Distributed storage solutions
+
+## Algorithms and Data structures
+### Linked list
+### Binary trees and Hash tables
+### Graphs and Graph traversal
+### Search algorithms
+### Sorting algorithms

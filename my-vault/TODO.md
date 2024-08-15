@@ -19,6 +19,10 @@
 - web sockets, gRPC
 - Spotify clone using SvelteJS and SvelteKit
 
+1. Golang - OpenAI (refer Jeremy Chone in [crates.io](https://crates.io/users/jeremychone))
+2. tree command alternative (Go, Rust)
+3. typing test in command line (Rust, Ratatui, Go)
+
 
 ### Interview
 
