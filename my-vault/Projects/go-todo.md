@@ -10,7 +10,7 @@ A simple TODO app in the CLI
 ### Checklist
 * [x] Store items in JSON file
 * [x] List items from the file
-* [ ] Add items
-* [ ] Update items
-* [ ] Mark items as Done
-* [ ] Use Lipgloss to colorize the output
+* [x] Add items
+* [x] Update items
+* [x] Mark items as Done
+* [x] Use Lipgloss to colorize the output
