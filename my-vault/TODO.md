@@ -30,5 +30,6 @@
 - System design
 - Go, Web sockets, gRPC
 - Docker, Kubernetes, Jenkins
-- GraphQL
+* Javascript and Typescript
 - AWS
+- GraphQL
