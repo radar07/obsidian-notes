@@ -11,6 +11,28 @@
 7. Terraform
 8. Rust
 
+### Interview
+
+* [ ] Data structures and Algorithms
+* [ ] Back-end
+	* [ ] Go
+	* [ ] Web applications
+	* [ ] Web sockets
+	* [ ] gRPC
+	* [ ] Protocol buffers
+* Front-end
+	* [ ] Javascript/Typescript
+	* [ ] React
+	* [ ] Svelte and SvelteKit
+- [ ] System design
+* [ ] Cloud
+	* [ ] AWS
+* [ ] DevOps
+	* [ ] Docker
+	* [ ] Kubernetes
+	* [ ] Jenkins
+	* [ ] Terraform
+
 ### Weekend projects
 
 - Add posts to [pranavrk24.com](https://www.pranavrk24.com)
@@ -24,12 +46,3 @@
 3. typing test in command line (Rust, Ratatui, Go)
 4. Svelte markdown editor/previewer (pre-processor??)
 
-
-### Interview
-
-- System design
-- Go, Web sockets, gRPC
-- Docker, Kubernetes, Jenkins
-* Javascript and Typescript
-- AWS
-- GraphQL
