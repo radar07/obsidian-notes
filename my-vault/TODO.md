@@ -20,7 +20,7 @@
 	* [ ] Web sockets
 	* [ ] gRPC
 	* [ ] Protocol buffers
-* Front-end
+* [ ] Front-end
 	* [ ] Javascript/Typescript
 	* [ ] React
 	* [ ] Svelte and SvelteKit
@@ -28,10 +28,10 @@
 * [ ] Cloud
 	* [ ] AWS
 * [ ] DevOps
-	* [ ] Docker
+	* [x] Docker - Revision
 	* [ ] Kubernetes
 	* [ ] Jenkins
-	* [ ] Terraform
+	* [x] Terraform - Revision
 
 ### Weekend projects
 

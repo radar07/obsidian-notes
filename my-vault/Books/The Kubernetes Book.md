@@ -18,7 +18,7 @@ Kubernetes is like a courier service. You package the app as a container, give i
 
 * Cluster -a bunch of machines(nodes) to host applications.
 * A cluster consists of a control plane and worker node.
-* Control plane -> Intelligence, exposes the API, has a scheduler for assigning work, and responsible for keeping apps healthy (self-healing, auto-scaling, rollouts).
+* Control plane -> Intelligence, exposes the API, has a scheduler for assigning work, and responsible for keeping apps healthy (self-healing, auto-scaling, roll-outs).
 * Workers -> hard work of executing user applications
 
 
