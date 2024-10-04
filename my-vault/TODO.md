@@ -34,6 +34,12 @@
 	* [ ] React
 	* [ ] Svelte and SvelteKit
 - [ ] System design
+	- [ ] Low-level design
+		- [ ] OOPs
+		- [ ] Design principle and patterns (SOLID, Observer, Factory, Singleton...)
+	- [ ] High-level design
+		- [ ] Basics (Client-server architecture, scaling, DNS, load balancer, and databases
+		- [ ] Database replication, sharding, caching, queuing
 * [ ] Cloud
 	* [ ] AWS
 * [ ] DevOps
